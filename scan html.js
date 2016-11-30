@@ -10,6 +10,7 @@ while (curr = queue.pop()) {
                 if (curr.childNodes[i].textContent.match(word)) {
                     console.log("Found!");
                     console.log(curr);
+                    document.write(curr);
                     // you might want to end your search here.
                 }
                 break;
